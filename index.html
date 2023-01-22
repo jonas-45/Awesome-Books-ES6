@@ -9,7 +9,68 @@
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  
+  <div class="body-wrapper">
+    <header>
+      <nav>
+        <div class="navbar-brand">
+          Awesome Books
+        </div>
+
+        <ul class="nav-list">
+          <li class="nav-item" onclick="showSection(1);">List</li>
+          <li class="list-divider"></li>
+          <li class="nav-item" onclick="showSection(2);">Add new</li>
+          <li class="list-divider"></li>
+          <li class="nav-item" onclick="showSection(3);">Contact</li>
+        </ul>        
+      </nav>
+
+      <div class="current-datetime">
+        <!-- display current date and time -->
+      </div>
+    </header>
+
+    <section id="book-list-section">
+      <h1 class="main-heading">Awesome books</h1>
+      <div class="books-container">
+        <p id="no-books">No books available now</p>
+        <table class="table table-striped table-borderless table-responsive-md">
+          <!-- <caption>List of books</caption> -->
+          <tbody class="table-body">
+            
+          </tbody>
+          
+        </table>
+      </div>
+    </section>
+
+    <section id="add-book-section">
+      <div class="add-books-container">
+        <h2 class="main-heading">Add a new book</h2>
+        <form action="" id="form">
+          <input type="text" id="booktitle" class="booktitle" placeholder="Title" required>
+          <input type="text" id="bookauthor" class="bookauthor" placeholder="Author" required>
+          <input type="submit" value="Add" id="submit">
+        </form>
+      </div>
+    </section>
+
+    <section id="contact-section">
+      <div class="add-books-container">
+        <h2 class="main-heading">Contact Information</h2>
+        <p>Do you have any questions or you just want to say "hello"? <br> You can reach out to us!</p>
+        <ul class="contact-info">
+          <li>Our email: awesomebooks@gmail.com</li>
+          <li>Our Phone number: +233240000000</li>
+          <li>Our Address: Streetname 22, 84503 Accra, Ghana</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      <p>Copyright @Awesome books. All rights reserved</p>
+    </footer>
+  </div>
 
   <script src="index.js" type="modules"></script>
 </body>
