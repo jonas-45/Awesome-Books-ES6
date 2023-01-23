@@ -1,4 +1,4 @@
-export default function showSection(number) {
+export default showSection = number => {
   switch (number) {
     case 0:
       document.getElementById('book-list-section').style.display = 'flex';

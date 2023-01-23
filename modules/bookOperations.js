@@ -7,7 +7,7 @@ export default class BooksLibrary {
     this.form = document.getElementById('form');
   }
 
-  addBook(event) {
+  addBook =(event) => {
     event.preventDefault();
     const title = document.getElementById('booktitle').value;
     const author = document.getElementById('bookauthor').value;
@@ -25,7 +25,7 @@ export default class BooksLibrary {
     localStorage.setItem('books', JSON.stringify(this.books));
   }
 
-  showBook(book) { // Method to used to display single book on the page
+  showBook = (book) => { // Method to used to display single book on the page
     document.getElementById('no-books').style.display = 'none';
     this.booksContainer.innerHTML += `<tr class="book${book.bid}">
     <td class="book-name">${book.title} <span class="book-author">by ${book.author}</span</td>
@@ -35,7 +35,7 @@ export default class BooksLibrary {
     this.addRemoveListerToButtons();
   }
 
-  addRemoveListerToButtons() {
+  addRemoveListerToButtons = () => {
     const removeButtons = document.querySelectorAll('.remove-button');
     removeButtons.forEach((button) => {
       button.addEventListener('click', (e) => {
@@ -46,7 +46,7 @@ export default class BooksLibrary {
     });
   }
 
-  removeBook(bid) {
+  removeBook = (bid) => {
     this.books = this.books.filter((book) => parseInt(book.bid, 10) !== parseInt(bid, 10));
     localStorage.setItem('book', JSON.stringify(this.books));
     const bookClass = `.book${bid}`;
