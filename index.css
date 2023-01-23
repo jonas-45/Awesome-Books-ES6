@@ -46,6 +46,10 @@ nav {
   font-family: 'Montserrat', sans-serif;
 }
 
+.contact-info li {
+  text-align: left;
+}
+
 .nav-list li:hover {
   color: rgb(0, 136, 255);
 }
@@ -166,10 +170,6 @@ input {
 
 .contact-info {
   font-family: 'Montserrat', sans-serif;
-}
-
-.contact-info li{
-  text-align: left;
 }
 
 footer {
