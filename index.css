@@ -5,7 +5,7 @@
   padding: 0;
 }
 
-body{
+body {
   text-align: center;
 }
 
@@ -86,14 +86,14 @@ section {
 
 .books-container p {
   font-size: 18px;
-  font-weight: 400px;
+  font-weight: 400;
   padding: 0;
   margin: 0;
   padding-top: 10px;
 }
 
 .book-author {
-  padding: 0px;
+  padding: 0;
   font-weight: bold;
   margin-top: 5px;
   margin-bottom: 6px;
@@ -102,11 +102,11 @@ section {
 
 .table {
   width: 70% !important;
-  border: 2px solid #333!important;
+  border: 2px solid #333 !important;
   border-collapse: collapse !important;
   font-family: 'Montserrat', sans-serif;
-  
 }
+
 tr {
   border: none !important;
 }
@@ -115,7 +115,6 @@ td {
   font-size: 1rem;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  padding: auto;
 }
 
 .book-name {
@@ -137,9 +136,6 @@ td {
   align-items: center;
   margin-top: 50px;
   width: 768px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .add-books-container h2 {
@@ -181,7 +177,7 @@ footer {
   margin-top: auto;
 }
 
-footer p {
+.footer p {
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;

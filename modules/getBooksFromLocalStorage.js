@@ -1,11 +1,11 @@
-import { BooksLibrary } from "./classes.js";
+import BooksLibrary from './bookOperations.js';
 
-//const libObj = 
-export function getBooksFromLocalStorage(books,){  //Retrieve books from local storage and diplay all when the page loads
-  if(books.length > 0){
-    document.getElementById("no-books").style.display = "none";
+// Retrieve books from local storage and diplay all when the page loads
+export default function getBooksFromLocalStorage(books) {
+  if (books.length > 0) {
+    document.getElementById('no-books').style.display = 'none';
     books.forEach((book) => {
       new BooksLibrary().showBook(book);
-    })
+    });
   }
 }
