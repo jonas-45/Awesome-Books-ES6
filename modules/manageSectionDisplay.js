@@ -20,4 +20,4 @@ export default showSection = number => {
       document.getElementById('add-book-section').style.display = 'none';
       document.getElementById('contact-section').style.display = 'none';
   }
-}
+};
