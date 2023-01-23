@@ -1,4 +1,4 @@
-export default showSection = number => {
+const showSection = (number) => {
   switch (number) {
     case 0:
       document.getElementById('book-list-section').style.display = 'flex';
@@ -21,3 +21,4 @@ export default showSection = number => {
       document.getElementById('contact-section').style.display = 'none';
   }
 };
+export default showSection;
