@@ -161,10 +161,15 @@ td {
 input {
   padding: 3px;
   width: 90%;
+  margin-top: 10px;
 }
 
 .contact-info {
   font-family: 'Montserrat', sans-serif;
+}
+
+.contact-info li{
+  text-align: left;
 }
 
 footer {
