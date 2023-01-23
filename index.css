@@ -92,11 +92,12 @@ section {
   padding-top: 10px;
 }
 
-.books-container .book-author {
+.book-author {
   padding: 0px;
-  font-weight: bolder;
+  font-weight: bold;
   margin-top: 5px;
   margin-bottom: 6px;
+  color: #000;
 }
 
 .table {
@@ -111,8 +112,15 @@ tr {
 }
 
 td {
-  font-size: 11px;
+  font-size: 1rem;
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: auto;
+}
+
+.book-name {
+  text-align: left;
+  font-weight: 400;
 }
 
 .button-cells {
