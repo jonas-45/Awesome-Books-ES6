@@ -1,0 +1,189 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+}
+
+.body-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 10px 80px;
+}
+
+header {
+  width: 100%;
+  padding: 5px 10px;
+  text-align: end;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 20px;
+  border: 1px solid #333;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  margin: 0;
+  list-style: none;
+}
+
+.nav-list li {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contact-info li {
+  text-align: left;
+}
+
+.nav-list li:hover {
+  color: rgb(0, 136, 255);
+}
+
+.list-divider {
+  width: 1px;
+  height: 20px;
+  border: 1px solid #444;
+  padding: 0;
+}
+
+.nav-item {
+  cursor: pointer;
+}
+
+.current-datetime {
+  margin-top: 5px;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-heading {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.books-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+
+.books-container p {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.book-author {
+  padding: 0;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 6px;
+  color: #000;
+}
+
+.table {
+  width: 70% !important;
+  border: 2px solid #333 !important;
+  border-collapse: collapse !important;
+  font-family: 'Montserrat', sans-serif;
+}
+
+tr {
+  border: none !important;
+}
+
+td {
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.book-name {
+  text-align: left;
+  font-weight: 400;
+}
+
+.button-cells {
+  text-align: right;
+}
+
+#no-books {
+  display: block;
+}
+
+.add-books-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  width: 768px;
+}
+
+.add-books-container h2 {
+  text-decoration: underline;
+}
+
+#form {
+  width: 400px;
+  text-align: center;
+}
+
+#submit {
+  width: 100px;
+  padding: 5px 10px;
+  margin-left: 260px;
+}
+
+.remove-button {
+  padding: 2px 5px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+input {
+  padding: 3px;
+  width: 90%;
+  margin-top: 10px;
+}
+
+.contact-info {
+  font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 20px;
+  border: 1px solid #333;
+  margin-top: auto;
+}
+
+.footer p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
