@@ -77,7 +77,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://jonas-45.github.io/Awesome-Books-ES6/))
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
